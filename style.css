@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(65, 66, 66);
+}
+
+nav{
+    background-color: black;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    color: white;
+
+}
+
+nav ul li{
+    list-style-type: none;
+    padding: 0 12px;
+    cursor: pointer;
+}
+
+.brand{
+    display:flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.brand img{
+    height: 45px;
+    width: 45px;
+    padding: 0 8px;
+}
+
+.container{
+    min-height: 73vh;
+    background-color: black;
+    display: flex;
+    width: 80vw;
+    border-radius: 20px;
+    margin: 10px auto;
+    padding: 5px;
+    background: url("background/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container .heading{
+    color: white;
+}
+
+.banner{
+    border: solid 2px red;
+}
+
+.bottom{
+    border: solid 2px black;
+    border-radius: 70px;
+    position: sticky;
+    bottom: 0;
+    background-color: rgb(108 108 108);
+    height:15vh;
+    margin-top:0px;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    
+    
+}
+
+#progressBar{
+    width: 70vw;
+    
+    cursor: pointer;
+}
+
+.icons{
+    color: white;
+}
+
+.icons .play-icons{
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+
+.songItems{
+    background-color: white;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    margin: 7px 7px;
+
+    
+
+}
+
+.songItemContainer{
+    margin: 40px 4px;
+}
+
+.songItems img{
+    height: 6vh;
+    width: 5vw;
+    border-radius: 40px;
+}
+
+.songInfo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.timestamp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.timestamp box-icon{
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+
+
+.songName{
+    font-weight: bolder;
+}
+
+.songItems img{
+    height: 7vh;
+    width: 5vw;
+}
